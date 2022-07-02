@@ -5,7 +5,10 @@ experimenting with deno deploy and fresh framework
 - deno install : https://deno.land/manual/getting_started/installation
 - islands architecture : https://www.patterns.dev/posts/islands-architecture/
 - preact : https://preactjs.com/
+- project : https://dash.deno.com/projects/chek-awesome-new-test
+- live demo : https://chek-awesome-new-test.deno.dev/
 
+awesome, no build, just push
 
 ```shell
 irm https://deno.land/install.ps1 | iex
