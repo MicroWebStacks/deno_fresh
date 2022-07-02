@@ -16,14 +16,14 @@ export default function Counter(props: CounterProps) {
       <p class={tw`flex-grow-1 font-bold text-xl`}>{count}</p>
       <button
         class={btn}
-        onClick={() => setCount(count - 1)}
+        onClick={() => setCount(count - 100)}
         disabled={!IS_BROWSER}
       >
         -1
       </button>
       <button
         class={btn}
-        onClick={() => setCount(count + 1)}
+        onClick={() => setCount(count + 99)}
         disabled={!IS_BROWSER}
       >
         +1
